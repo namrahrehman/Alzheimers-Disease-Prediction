@@ -53,9 +53,6 @@ Models are evaluated using common classification metrics:
 ### 5. Feature Importance
 The importance of each feature is evaluated to understand which factors most strongly contribute to the prediction of Alzheimer's.
 
-## Conclusion
-This project demonstrates the application of machine learning for Alzheimer's Disease prediction. Statistical analysis provides insight into the significance of various features, while the performance evaluation shows how well different algorithms classify the disease.
-
 ## Requirements
 
 - R version 4.0 or later
@@ -69,3 +66,9 @@ To run the project, you need to install the necessary R packages:
 install.packages(c(
   "ggplot2", "dplyr", "tidyr", "caret", "randomForest", "e1071", "xgboost", "survival", "survminer", "glmnet", "DALEX"))
 ```
+## Usage
+
+1. Clone the repository.
+2. Download the dataset from Kaggle's Alzheimer’s Disease Prediction Dataset.
+3. Load the dataset (`alzheimers_data.csv`) and adjust the path in the code.
+4. Run the script to preprocess data, train models, and evaluate performance.
